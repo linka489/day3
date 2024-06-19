@@ -1,0 +1,154 @@
+/* <!-- стр 80. №1 --> */
+input[title] {
+   background-color: #C2DDFD;
+  }
+/* <!-- стр 80. №2 --> */
+p[title] {
+   background-color: #C2DDFD;
+  }
+/* <!-- стр 80. №3 --> */
+p[title="hello"] {
+   background-color: #C2DDFD;
+  }
+/* <!-- стр 80. №4 --> */
+a[href^="http://"] {
+	color: red;
+}
+/* <!-- стр 80. №5 --> */
+a[href$=".html"] {
+	color: rgb(248, 44, 187);
+}
+/* <!-- стр 80. №6 --> */
+p[class~="hello"] {
+	color: blue;
+}
+/* <!-- стр 80. №7 --> */
+p[class|="top"] {
+	color: red;
+}
+/* <!-- стр 82. №1 --> */
+a:link {
+	color: rgb(0, 132, 255);
+}
+a:visited {
+	color: green;
+}
+a:hover {
+   color: red;
+	text-decoration: none;
+}
+a:active {
+	color: rgb(0, 0, 0);
+}
+/* <!-- стр 84. №1 --> */
+a:link {
+	color: rgb(0, 132, 255);
+   text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 132, 255);
+   text-decoration: none;
+}
+a:hover {
+   color: red;
+}
+a:active {
+	color: rgb(0, 132, 255);
+   text-decoration: none;
+}
+/* <!-- стр 87. №1 --> */
+li:first-child {
+	color: red;
+}
+/* <!-- стр 87. №2 --> */
+li:last-child {
+	color:green;
+}
+/* <!-- стр 87. №3 --> */
+li:last-child {
+	color: red;
+}
+li:last-child {
+	color:green;
+}
+/* <!-- стр 87. №4 --> */
+li:nth-child(3) {
+	color: red;
+}
+/* <!-- стр 87. №5 --> */
+li:nth-child(even) {
+	color: green;
+}
+li:nth-child(odd) {
+	color: red;
+}
+/* <!-- стр 87. №6 --> */
+li:nth-child(3n) {
+	color: red;
+}
+/* <!-- стр 87. №7 --> */
+li:nth-last-child(4) {
+	color: red;
+}
+/* <!-- стр 87. №8 --> */
+li:only-child {
+	color: red;
+}
+
+ul {
+	margin-bottom: 10px;
+}
+/* <!-- стр 87. №9 --> */
+/* li:empty {
+	border: 1px solid blue;
+	list-style-type: circle;
+	color: blue;
+	width: 100px;
+}
+div  {
+	border: 1px solid red;
+	list-style-type: circle;
+	color: red;
+	width: 100px;
+} */
+
+/* стр88№1 */
+p:first-of-type {
+   color: red;
+  }
+  h2:last-of-type {
+   color: red;
+  }
+  /* стр88№2 */
+  h2:nth-of-type(2) {
+   color: red;
+  }
+  
+  h2:nth-of-type(even) {
+   color: red;
+  }
+  /* стр88№3 */
+  div {
+   border: 1px dashed black;
+   padding: 15px;
+   margin-bottom: 10px;
+  }
+  h2:only-of-type {
+   color: red;
+  }
+/* стр89№1 */
+li:not(.elem) {
+	color: rgb(102, 0, 133);
+}
+/* стр89№2 */
+li:not(:first-child) {
+	color: rgb(89, 0, 255);
+}
+/* стр89№3 */
+
+li:not(:last-child) {
+   color: green;
+  }
+  li:not(:first-child) {
+   color: rgb(243, 178, 0);
+  }
